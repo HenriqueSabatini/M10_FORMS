@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 1024px; /*tamanho da tela*/
+    width: 100%; /*quanto vai oculpar da tela*/
+    margin: 0 auto; /*centralizar*/
+    display: block;
+    justify-content: center;
+
+}
+
+footer,
+img {
+    background-color: rgba(3, 0, 3, 0.925);
+    padding: 5px 0; /*espaço somente na parte de cima da pagina*/
+    color: #00ff88;
+}
+
+footer > .container { /*selecionamos o container filho do footer*/
+    justify-content: space-between; /*vai deixar o titulo na esquerda e o menu na direita*/
+    align-items: center; /*centraliza o menu na vertical*/
+}
+
+.container-flex{
+    display: flex;
+    align-items: center; /*centraliza o menu na vertical*/
+}
+
+section { /*vamos deixar padra para todas as 'section'*/
+    padding: 48px 0; /*espaço de 48px em baixo e em cima na seção e na nadas nas laterais */
+}
+
+section h2{
+    color: #00ff88;
+}
+
+section h3{ 
+    font-size: 10px;  
+    margin-bottom: 16px; /*Margem do titulo */
+    font-family: 'Ephesis', cursive;
+    color:#ff0000; 
+    font-weight: none;   
+}
+
+button{
+    display: block;
+    width: 100%; /*vai ocupar 100% do container*/
+    padding: 8px 0;
+    border: none;
+    background-color: #00ff88;
+    color: rgb(1, 7, 12);
+    font-size: 16px;
+    font-weight: bold;/*deixa negrito*/
+    font-style: italic;/*deixa italico*/
+    cursor: pointer;
+    border-radius: 6px; /*borda arredondada*/
+}
+
+.form-campo{
+    margin-bottom: 16px; /*margem na parte baixo dos campos*/
+    background-color: black;
+    color: #00ff88;
+}
+
+.form-campo label{
+    font-weight: bold;
+}
+
+.form-campo input{
+    width: 100%; /*vai ocupar 100% do container*/
+    padding: 8px;
+    color: #00ff88;
+}
+
+form{
+    max-width: 360px; /*aqui definimos o tamanho do MAXIMO do form*/
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li{
+    list-style: none; /*removendo os topicos */
+    margin-left: 16px; /*margem a esquerda*/
+}
+
+footer li img{
+    height: 32px; /*tamanho da imagem*/
+}
