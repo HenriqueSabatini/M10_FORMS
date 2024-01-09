@@ -7,7 +7,7 @@ $('#CEP').mask('00000-000',{
 })
 
 $(document).ready(function(){
-    ('form').validate({ 
+    $('form').validate({ 
         rules: {
             nome: {
                 required: true
